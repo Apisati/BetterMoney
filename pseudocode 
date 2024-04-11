@@ -1,1 +1,59 @@
-something
+Begin Better money
+
+Print"choose your option"
+Print 1 - "money bucket"
+print 2 - "compound interest"
+
+Get choice
+
+If choice == 1 THEN
+            MoneyBucket()
+
+
+if choice == 2 THEN
+             Compound interest()
+
+
+End BetterMoney
+
+begin money bucket
+ Get salary
+    BLOW = 60% x salary
+    Daily expense = 60% x blow
+    splurge = 10% x blow
+    smile = 10% x blow
+    fire extinguisher = 20 x blow
+    grow = 20% x salary
+    Mojo = 20% x salary
+
+print Blow
+
+print daily expense
+
+print splurge
+
+print smile
+
+print fire extinguisher
+
+print Grow
+
+print Mojo
+
+begin compound interest
+Get Age when you started investing
+Get annual interest return
+Get amount that you will invest
+print Age
+print amount
+total = 10% * amount
+print total + amount
+For counter = age to 60
+    print counter
+    print Amount
+    r = total
+    print amount * interest + total + amount
+    total = total + amount
+    interest = rate * total
+    total = total + interest
+    print total
