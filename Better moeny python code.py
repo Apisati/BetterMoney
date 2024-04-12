@@ -71,7 +71,7 @@ if User_choice  == 1:
 elif User_choice == 2:
     Compound_Interest()
 else:
-    print('invalid choice') #cant choose other
+    print('invalid choice X') #cant,  choose other
 
 
 
